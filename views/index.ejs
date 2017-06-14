@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/index.css' />
-  </head>
+  <% include head-util %>
   <body>
     <header><%= title %></header>
     <ul class="nav">
@@ -17,5 +14,6 @@
     	<li><a href="">下载中心</a></li>
     	<li><a href="">联系我们</a></li>
     </ul>
+    <% include footer %>
   </body>
 </html>
