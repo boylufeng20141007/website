@@ -1,30 +1,3 @@
-body, ul, li, div, header {
-	margin: 0;
-	padding: 0;
-}
-header {
-	height: 118px;
-	line-height: 118px;
-    width: 1200px;
-    margin: 0 auto;
-}
-.nav {
-	height: 48px;
-    line-height: 48px;
-	background-color: #0bb0d9;
-}
-.nav > li {
-	list-style: none;
-	width: 150px;
-    float: left;
-    
-    text-align: center;
-}
-.nav > li > a {
-	font-size: 16px;
-    color: #fff;
-    text-decoration: none;
-}
-.nav > li > a:hover {
-	text-decoration: underline solid #FFF;
-}
+body,ul,li,div,p,header,footer{margin:0;padding:0}header{height:118px;line-height:118px;width:1200px;margin:0 auto}.nav{height:48px;line-height:48px;background-color:#0bb0d9}.nav li{list-style:none;width:150px;float:left;text-align:center}.nav li a{font-size:16px;color:#fff;text-decoration:none}.nav li a:hover{border-bottom:1px solid #FFF}
+
+/*# sourceMappingURL=sourcemap/index.css.map */
