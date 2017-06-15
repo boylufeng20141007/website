@@ -17,7 +17,7 @@ router.get('/', function (req, res, next) {
             link: 'index'
         }
 	};
-  res.render('index', data);
+  res.render('page/index', data);
 });
 
 router.get('/add', function (req, res, next) {

@@ -1,0 +1,22 @@
+// 导航栏
+.nav {
+    height: 48px;
+    line-height: 48px;
+    background-color: #006d46;
+    padding-left: 10%;
+    overflow: hidden;
+    li {
+        list-style: none;
+        width: 150px;
+        float: left;
+        text-align: center;
+        a {
+            font-size: 16px;
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+                border-bottom: 1px solid #FFF;
+            }
+        }
+    }
+}

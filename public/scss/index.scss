@@ -2,30 +2,16 @@ body, ul, li, div, p, header, footer {
     margin: 0;
     padding: 0;
 }
+.clearfix {
+    zoom : 1;
+    clear : both;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
 
-header {
-    height: 118px;
-    line-height: 118px;
-    width: 1200px;
-    margin: 0 auto;
-}
-// 导航栏
-.nav {
-    height: 48px;
-    line-height: 48px;
-    background-color: #0bb0d9;
-    li {
-        list-style: none;
-        width: 150px;
-        float: left;
-        text-align: center;
-        a {
-            font-size: 16px;
-            color: #fff;
-            text-decoration: none;
-            &:hover {
-                border-bottom: 1px solid #FFF;
-            }
-        }
-    }
-}
