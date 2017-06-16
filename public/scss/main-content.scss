@@ -4,10 +4,11 @@
     section {
         margin-top: 80px;
         img{
+            overflow: hidden;
+            transition: all .5s ease-in .1s;
             &:hover {
                 cursor: pointer;
                 transform: scale(1.2);
-                transition: all .5s ease-in .1s;
             }
         }
     }
