@@ -1,0 +1,35 @@
+.wrap-section {
+    margin: 0 auto;
+    max-width: 1200px;
+    section {
+        margin-top: 80px;
+        img{
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.2);
+                transition: all .5s ease-in .1s;
+            }
+        }
+    }
+    .section-2-col {
+        &:first-child {
+            li {
+                &:first-child {
+                    max-width: 860px;
+                    overflow: hidden;
+                }
+                &:last-child {
+                    max-width: 300px;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    .section-4-col {
+        li{
+            width: 25%;
+            overflow: hidden;
+        }
+
+    }
+}

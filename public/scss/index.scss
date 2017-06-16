@@ -1,6 +1,21 @@
-body, ul, li, div, p, header, footer {
+body, ul, li, div, p, header, footer, h1, h2 {
     margin: 0;
     padding: 0;
+}
+li {
+    list-style: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.show {
+    display: block;
+}
+.hide, .none {
+    display: none;
 }
 .clearfix {
     zoom : 1;
