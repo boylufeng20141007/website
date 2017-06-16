@@ -1,5 +1,13 @@
 header {
     height: 118px;
     line-height: 118px;
-    padding-left: 10%;
+    margin-left: 10%;
+    font-size: 30px;
+    .ellipsis{
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        word-break: keep-all;
+        text-overflow: ellipsis;
+    }
 }

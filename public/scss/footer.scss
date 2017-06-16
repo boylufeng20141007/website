@@ -3,25 +3,20 @@ footer {
     clear: both;
     background: #2e2e2e;
     padding: 50px 0;
-    padding-left: 10%;
+    // padding-left: 10%;
+    ul {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
     .item {
        float: left;
        margin-right: 100px;
        &>a {
+            display: block;
             font-size: 14px;
-            line-height: 44px;
+            line-height: 25px;
             color: #e5e5e5;
-            padding: 10px 0;
             text-decoration: none;
-       }
-       ul > li > a {
-            font-size: 12px;
-            line-height: 26px;
-            color: #bfbfbf;
-            text-decoration: none;
-            &:hover {
-                border-bottom: 1px solid rgba(225, 225, 225, .7);
-            }
        }
     }
     li {

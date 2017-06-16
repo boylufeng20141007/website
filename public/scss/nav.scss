@@ -1,18 +1,21 @@
 // 导航栏
-.nav {
-    height: 48px;
+.my-navagator {
+    width: 100%;
+    // height: 48px;
     line-height: 48px;
     background-color: #006d46;
     padding-left: 10%;
-    overflow: hidden;
+    margin: 0;
     li {
-        width: 150px;
+        width: 10%;
         float: left;
         text-align: center;
+        overflow: hidden;
         a {
             font-size: 16px;
             color: #fff;
             text-decoration: none;
+            padding: 0;
             &:hover {
                 border-bottom: 1px solid #FFF;
             }
