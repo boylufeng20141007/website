@@ -17,6 +17,10 @@ footer {
             line-height: 25px;
             color: #FFF;
             text-decoration: none;
+            box-sizing: border-box;
+            &:hover {
+                border-bottom: 1px #FFF solid;
+            }
        }
     }
     li {
