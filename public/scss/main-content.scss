@@ -72,8 +72,11 @@
             overflow: hidden;
         }
         li {
-                width: 30%;
-                margin-right: 2%;
+            width: 32%;
+            margin-right: 2%;
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
     .section-4-col {
@@ -95,9 +98,12 @@
             margin-top: 15px;
         }
         li{
-            width: 23%;
+            width: 23.5%;
             margin-right: 2%;
             overflow: hidden;
+            &:last-child {
+                margin-right: 0;
+            }
         }
 
     }

@@ -3,6 +3,8 @@ footer {
     clear: both;
     background: rgba(0, 107, 70, .9);
     padding: 50px 0;
+    color: #FFF;
+    font-size: 14px;
     ul {
         max-width: 1200px;
         margin: 0 auto;
@@ -12,7 +14,6 @@ footer {
        margin-right: 100px;
        &>a {
             display: block;
-            font-size: 14px;
             line-height: 25px;
             color: #FFF;
             text-decoration: none;
@@ -20,5 +21,16 @@ footer {
     }
     li {
         list-style: none;
+    }
+    p {
+        max-width: 1200px;
+        margin: 20px auto 0;
+        text-decoration: none;
+        a {
+            color: #FFF;
+            &:hover {
+                color: #FFF
+            }
+        }
     }
 }

@@ -9,14 +9,14 @@ var router = express.Router();
 
 
 /* GET company page. */
-router.get('/company', function (req, res /* , next */) {
+router.get('/equipment', function (req, res /* , next */) {
   var data = {
-    title: '公司简介',
+    title: '厂房设备',
     head: {
-      link: 'company'
+      link: 'equipment'
     }
   };
-  res.render('page/company.html', data);
+  res.render('page/equipment.html', data);
 });
 
 module.exports = router;
