@@ -1,9 +1,8 @@
 footer {
     margin-top: 50px;
     clear: both;
-    background: #2e2e2e;
+    background: rgba(0, 107, 70, .9);
     padding: 50px 0;
-    // padding-left: 10%;
     ul {
         max-width: 1200px;
         margin: 0 auto;
@@ -15,7 +14,7 @@ footer {
             display: block;
             font-size: 14px;
             line-height: 25px;
-            color: #e5e5e5;
+            color: #FFF;
             text-decoration: none;
        }
     }

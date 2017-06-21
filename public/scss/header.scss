@@ -1,8 +1,19 @@
 header {
+    color: rgba(0, 109, 70, 1);
     height: 118px;
     line-height: 118px;
-    margin-left: 10%;
+    padding-left: 10%;
     font-size: 30px;
+    border-top: 3px rgba(0, 109, 70, 1) solid;
+    overflow: hidden;
+    span {
+        transition: all .2s ease-in .2s;
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            text-shadow: 0 5px 5px rgba(0, 109, 70, 1);
+        }
+    }
     .ellipsis{
         width: 100%;
         overflow: hidden;
