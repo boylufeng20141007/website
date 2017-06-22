@@ -6,12 +6,15 @@ var nodemon = require('gulp-nodemon');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 var sourcemaps = require('gulp-sourcemaps');
+var postcss = require('gulp-postcss');
+var autoprefixer = require('autoprefixer');
 
 // 编译scss
 gulp.task('sass', function () {
   return gulp.src('./public/scss/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(postcss([autoprefixer()]))
     .pipe(sourcemaps.write('./sourcemap'))
     .pipe(gulp.dest('./public/css'));
 });
