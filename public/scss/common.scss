@@ -1,4 +1,4 @@
-// 网站公共样式
+// common style
 body, ul, li, div, p, header, footer, h1, h2 {
     margin: 0;
     padding: 0;
@@ -28,5 +28,17 @@ li {
     font-size: 0;
     content: " ";
     clear: both;
-    height: 0
+    height: 0;
+}
+@mixin col-3($width: 31.33%, $mr: 2%) {
+    width: $width;
+    margin-right: $mr;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+@mixin max-width($width: 1200px) {
+    max-width: $width;
+    margin: 0 auto;
 }

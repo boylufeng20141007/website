@@ -39,6 +39,7 @@ gulp.task('node', function () {
 
 gulp.task('server', ['node', 'sass:watch'], function () {
   var files = [
+    'app.js',
     'routes/*.js',
     'routes/**/*.js',
     'views/**/*.htlm',

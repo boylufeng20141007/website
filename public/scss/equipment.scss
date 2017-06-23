@@ -1,1 +1,17 @@
 // 厂房设备
+@import 'common.scss';
+@import 'flex.scss';
+
+.wrap-equipemnt-intro {
+  @include max-width();
+  margin-top: 80px;
+  li {
+    @include col-3();
+  img {
+        max-width: 100%;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}

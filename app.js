@@ -1,7 +1,8 @@
-var express = require('express');
-var path = require('path');
+let express = require('express');
+let app = express();
+let path = require('path');
 // var favicon = require('serve-favicon');
-var logger = require('morgan');
+let logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var ejs = require('ejs');
@@ -11,7 +12,8 @@ var users = require('./routes/users');
 var company = require('./routes/company');
 var equipment = require('./routes/equipment');
 
-var app = express();
+ejs.open = '{{';
+ejs.close = '}}';
 
 // view engine setup
 app.engine('html', ejs.renderFile);
