@@ -9,8 +9,11 @@
     @include col-3();
   img {
         max-width: 100%;
+        cursor: pointer;
     }
     p {
+      padding: 8px 0;
+      font-size: 12px;
       text-align: center;
     }
   }

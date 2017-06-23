@@ -11,9 +11,9 @@
             border: 1px #ccc solid;
             margin: 0 3px;
             &:hover {
-                background-color: #01462d;
+                background-color: rgba(0, 107, 70, .9);
                 color: #fff;
-                border: 1px #01462d solid;
+                border: 1px rgba(0, 107, 70, .9) solid;
                 cursor: pointer;
             }
         }
